@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Hastorga105/react-youtube-clone/static/css/main.7064deb2.css",
+    "main.js": "/Hastorga105/react-youtube-clone/static/js/main.808d3df9.js",
+    "index.html": "/Hastorga105/react-youtube-clone/index.html",
+    "main.7064deb2.css.map": "/Hastorga105/react-youtube-clone/static/css/main.7064deb2.css.map",
+    "main.808d3df9.js.map": "/Hastorga105/react-youtube-clone/static/js/main.808d3df9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7064deb2.css",
+    "static/js/main.808d3df9.js"
+  ]
+}
