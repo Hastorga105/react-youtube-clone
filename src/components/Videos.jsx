@@ -1,13 +1,13 @@
 import { Stack, Box,  } from "@mui/material"
 import { VideoCard, ChannelCard } from './'
 
-const Videos = ({ videos }) => {
+const Videos = ({ videos, direction }) => {
   //console.log("Videos:")
   //console.log(videos)
-
+  if(!videos?.length) return 'Loading...'
   return (
-    <Stack direction="row" flexWrap="wrap" justifyContent="start" gap={2}>
-      { videos[0].map((item, idx) => (
+    <Stack direction={direction || "row"} flexWrap="wrap" justifyContent="start" gap={2}>
+      { videos.map((item, idx) => (
         <Box key={idx}>
           {/*console.log("holaaaaaa ")*/}
           {/*console.log(item)*/}
